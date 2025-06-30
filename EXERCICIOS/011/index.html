@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexivel</title>
+</head>
+<body>
+    <h1>Testando imagem flexivel</h1>
+    <p>Mude o tamanho da sua janela para ver a imagem alterar</p>
+    
+    <picture>
+
+
+<source media="(max-width:750px)" srcset="imagens/img-p.png" type="image/png">
+<source media="(max-width:1050px )" srcset="imagens/img-m.png" type="image/png">
+    <img src="imagens/img-g.png" alt="imagem flex">
+    </picture>
+
+    
+<h1>Testando audio</h1>
+
+<audio src="midia/audio1.mp4" controls preload="metadata"></audio> <br>
+<audio controls preload="metadata" loop>
+<source src="midia/audio1.mp4" type="audio/mpeg" >
+</audio>
+
+
+</body>
+</html>
